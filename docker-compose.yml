@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  multiagent:
+    build: ./multiagent-autogen-demo
+    ports:
+      - "8000:8000"
+    environment:
+      - PROMPT_CATALOG_DIR=/app/../prompt-engineering-catalog
+  semantic-kernel:
+    build: ./semantic-kernel-java-bank
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHON_API_BASE=http://multiagent:8000
+    depends_on:
+      - multiagent

@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.sk: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level cid=%X{cid} %logger - %msg%n"
