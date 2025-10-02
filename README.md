@@ -106,5 +106,5 @@ curl -i -X POST "http://localhost:8080/policy/reissue?tier=VIP&dispute=false"
 
 
 
-<img width="1929" height="749" alt="image" src="https://github.com/user-attachments/assets/f7dcd162-d1e1-4d0a-80ba-a3274bbd9b82" />
+![Screenshot_20251001_203354_Chrome](https://github.com/user-attachments/assets/20fe50f9-5a0a-492c-95ec-a80f581e3a99)
 
